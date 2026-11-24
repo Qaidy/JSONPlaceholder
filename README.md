@@ -1,17 +1,36 @@
-# jsonplaceholder
+# JSONPlaceholder App
 
-A new Flutter project.
+This Flutter application is built as a school project that consumes data from the public JSONPlaceholder REST API (https://jsonplaceholder.typicode.com).
+
+## Features
+
+The application displays 6 data endpoints across tabs:
+- Posts (List of posts with ID and User ID)
+- Comments (List of comments with name, email, and ID)
+- Albums (List of albums with photo preview pop-ups)
+- Users (List of user profiles with contact and address details)
+- Photos (List of photos with thumbnails and full-size dialog previews)
+- Todos (List of todos with completed status)
+
+Additional features:
+- Dynamic total item counters on each tab
+- Pull-to-refresh functionality
+- Responsive layout for both mobile and desktop screens
+
+## Tech Stack
+
+- Flutter SDK
+- Dart
+- `http` package for API requests
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone or open this repository.
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the application:
+   ```bash
+   flutter run
+   ```
